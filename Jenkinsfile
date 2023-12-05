@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('build') {
+      steps {
+        echo 'Change deteted in the pipline'
+      }
+    }
+
   }
 }
